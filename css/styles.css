@@ -42,5 +42,16 @@ nav {
 }
 
 .brand {
+    font-size: 25px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul il {
     
 }
