@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,6 +10,7 @@
     --orange: #f78b00;
     --blue: #00285f;
     --gray: #ededed;
+    --blue-hover: #00285f83;
 }
 
 html, body {
@@ -52,6 +53,32 @@ nav ul {
     flex-direction: row;
 }
 
-nav ul il {
-    
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--blue-hover)
+}
+
+nav ul button {
+    border: 1px solid var(--blue);
+    background: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: var(--blue);
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+nav ul button:hover {
+    color: var(--blue-hover)
 }
