@@ -1,0 +1,4 @@
+<div class="filter-card">
+                    <input type="text" class="seach-input" placeholder="Choose your favorite model" >
+                    <button class="search-button">Search</button>
+                </div>
